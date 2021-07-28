@@ -1,0 +1,67 @@
+/*tab css*/
+@media only screen and (min-width:200px) and (max-width:991px){
+.logo_area {margin-left: 0px;}
+.inner_header{ padding: 75px 0;}
+.inner_header h1 {font-size: 30px;margin-bottom: 20px;}
+#top_heder {padding-top: 0px;}
+#service_area {padding: 60px 0;}
+.inner_service h2 {font-size: 22px;}
+.pas {width: 48%;}
+.col h3 {font-size: 22px;}
+#tem_area {padding: 60px 0;}
+.inner_tem h2 {font-size: 25.29px;margin: 0;}
+.pas h3 {font-size: 22px;}
+.pa {font-size: 16px;}
+#skil_area {padding: 60px 0;}
+.inner_skil h2 {font-size: 25px;margin: 0;}
+.tpl {width: 48%;}
+.inner_skil h2 {font-size: 22px;}
+#portfolio_area {padding: 50px 0;}
+.inner_portfilio h5 {margin-bottom: 40px;}
+.pet {padding: 15px 30px;}
+#testimonial_area {padding-top: 50px;}
+.main_testimonial h2 {font-size: 25px;}
+.inner_child_text {text-align: center;}
+.inner_child_text img {float: none;height: 200px;padding:0;width: 70%;margin: 0;}
+.inner_child_text p {font-size: 18px;text-align: center;}
+.inner_child_text h3 {font-size: 22px;text-align: center;}
+.child-testimonial_4{margin-top:70px;}
+.inner_child_text .child-testimonial:nth-child(2) {margin-top: 70px;}
+.child-testimonial_4 .claint_reveiw{margin-top:0px;}
+#touch_area {padding: 50px 0;}
+.main_touch h2 {font-size: 25px;margin-bottom: 0;}
+.main_touch p {	margin-top: 10px;}
+.inner_touch_area form {margin-top: 30px;}
+.inner_touch_area input[type="submit"] {width: 250px;height: 40px;}
+.inner_footer ul li a {font-size: 20px;padding: 5px 10px;}
+}
+/*mobile css*/
+@media only screen and (min-width:200px) and (max-width:480px){
+  .inner_header {padding: 30px 0;}
+.inner_header h1 {font-size: 20px;margin-bottom: 0px;}
+.logo_area {margin: 0;padding: 0;float: none;width: auto;margin-left: 0;text-align: center;}
+.child-testimonial:nth-child(2) {padding: 40px 0;}
+.col img {margin: 10px;}
+.inner_service p {width: 100%;margin-left: 0;}
+.col {width: 100%;float: none;margin: 0;}
+.col h3 {margin-bottom: 5px;}
+.inner_tem p {margin-top: 10px;}
+.pas {width: 100%;float: none;margin: 0;margin-top: 40px;}
+.pas p {padding-top: 0;}
+.inner_skil p {width: 100%;margin-left: 0;}
+.tpl {width: 100%;float: none;margin: 0;margin-top: 40px;padding-bottom: 30px}
+.inner_skil h3 {margin-bottom: 0;}
+.inner_portfilio h2 {margin-top: 10px;margin-bottom: 15px;}
+.inner_portfilio p {width: 100%;margin-left: 0;}
+.navition button {font-size: 14px;padding: 10px 15px;margin: 10px;}
+.may {width: 100%;float: none;margin: 0;margin-top: 30px;}
+.inner_child_text {width: 100%;float: none;}
+.main_touch p {margin-left: 0;}
+.inner_touch_area input {margin-left: 0;width: 100%;}
+.inner_touch_area textarea {margin-left: 0;width: 100%;height: 130px;}
+.inner_touch_area input[type="submit"] {width: 50%;}
+#footer_area {padding: 5px 0;}
+.inner_footer ul {margin: 0;padding: 0;}
+.inner_footer ul li {margin-right: 2.1px;}
+.inner_footer ul li a {font-size: 14px;padding: 5px 0px;}
+}

@@ -1,0 +1,673 @@
+/**************************************
+COMON CSS
+**************************************/
+body{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin:0;
+  padding:0;
+}
+.container{
+  margin: 0 auto;
+  max-width: 1100px;
+  width: 96%;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+.aligenleft{
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  
+  }
+
+/**************************************
+NAV AREA CSS
+**************************************/
+.nav_area{
+  width: 100%;
+  clear: both;
+  position: sticky;
+  top: 0;
+  background-image:
+  linear-gradient(rgba(134, 11, 235, 0.5),rgba(134, 11, 235, 0.5)), 
+  url(img/back_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  z-index: 9999;
+}
+.inner_nav{
+  overflow: hidden;
+}
+.logo_area{
+  float: left;
+  width: 150px;
+  margin-left:32px;
+  padding-top: 15px;
+}
+#main_menu{
+float: right;
+padding: 25px;
+}
+.nav_area ul {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+.nav_area ul li{
+  display: inline-block;
+  padding:0 15px ;
+}
+.active{
+  background:#643A79;
+  border-radius: 5px;
+}
+.nav_area ul li a{
+  position: relative;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px 10px ;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.nav_area ul li a:hover{
+background:#643A79;
+border-radius: 5px;
+}
+.nav_area ul li a:before{
+  position: absolute;
+  content:'';
+  left:0;
+  bottom:0;
+  height:3px;
+  width:100%;
+  background:#fff;
+  transform:scaleX(0);
+  transform-origin:right;
+  transition: transform .4s linear;
+}
+.nav_area ul li a:hover:before{
+  transform: scaleX(1);
+  transform-origin: left;
+}
+/**************************************
+HEADER AREA CSS
+**************************************/
+#hedre_area{
+  width: 100%;
+  clear: both;
+  background-image:
+  linear-gradient(rgba(134, 11, 235, 0.527),rgba(125, 18, 224, 0.479)), 
+  url(img/slider_02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; 
+}
+
+.inner_header{
+   padding: 140px 0;
+ overflow: hidden;
+ text-align:center;
+}
+.inner_header h1{
+  color:#fff;
+  font-size:42.16px;
+  font-weight:bold;
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align:center;
+  line-height:1em;
+}
+.inner_header a{
+  color: #fff;
+ display: inline-block;
+ font-size: 16px;
+ font-weight: semibold;
+ text-decoration: none;
+ text-transform: uppercase;
+ padding:15px 70px;
+ text-align:center;
+}
+.inner_header a:hover{
+ background: #EB7D4B;
+   border-radius:5px;
+}
+
+
+
+
+/**************************************
+SERVICE AREA CSS
+**************************************/
+#service_area{
+  width: 100%;
+  clear: both;
+  background-image:
+  linear-gradient(rgba(23, 194, 163, 0.521),rgba(23,194,163,0.521)),
+  url(img/slider_01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  padding:120px 0 ;
+  text-align: center;
+}
+.inner_service{
+  overflow: hidden;
+}
+.col {
+	width: 23%;
+	float: left;
+	margin: 0 1% 10px;
+}
+.inner_service h2 {
+	color: #fff;
+	font-size: 40px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+.inner_service h2::after{
+content: "";
+display: block;
+height: 4px;
+width: 86px;
+background: #14A58C;
+margin: auto;
+margin-top: 20px;
+}
+.inner_service p{
+font-size: 18px;
+font-weight: normal;
+width: 60%;
+margin-left: 20%;
+}
+.col img{
+height: 130px;
+margin: 60px 0 ;
+ } 
+ .col h3{
+ font-size: 24px;
+ font-weight: bold;
+ margin-top: 0;
+ text-transform: uppercase;
+ }
+ .col p{
+ font-size: 16px;
+ font-weight: 300;
+ width:100%;
+ margin: 0;
+ }
+/**************************************
+TEM AREA CSS
+**************************************/
+ #tem_area{
+width: 100%;
+clear: both;
+background-image:
+linear-gradient(rgba(231, 241, 248, 0.741),rgba(231, 241, 248, 0.741)),
+url(img/slider_003.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+padding:120px 0 ;
+text-align: center;
+ }
+.inner_tem {
+  overflow: hidden;
+}
+.inner_tem  h2{
+ color: #3C4761;
+ font-size: 41.29px;
+ margin-bottom: 20px;
+ font-weight: bold;
+ position:relative ;
+}
+.inner_tem  h2::after{
+  content: "";
+  display: block;
+  height: 4px;
+  width: 86px;
+  background: #C8D9E5;
+  margin: auto;
+  margin-top: 20px;
+ }
+ .inner_tem p{
+   color: #808B9D;
+   font-size: 18.58px;
+   font-weight: normal;
+   margin-top: 0;
+ }
+
+.pas{
+	width: 23%;
+	float: left;
+	margin: 0 1% 10px;
+  margin-top: 76px;
+}
+.pas img{
+  width: 150px;
+  height: 145px;
+  border-radius: 50%;
+}
+.don h3{
+  color: #27283D;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.pas h3{
+  color: #3C4761;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+.pa{
+  color: #05BCF8;
+  font-size: 16px;
+  font-weight: normal;
+}
+.pas p{
+  color: #808B9D;
+  font-size: 16px;
+  font-weight: normal;
+  padding-top: 20px;
+}
+.don p{
+  color: #808B9D;
+  font-size: 16px;
+  font-weight: lighter;
+  
+}
+.pas ul{
+  margin:0;
+  padding: 10px 0;
+  list-style: none;
+  text-align: center;
+
+}
+.pas ul li{
+    display: inline-block;
+    margin-left: 13px;
+}
+.pas ul li a{
+  display: block;
+  text-decoration: none;
+}
+
+.pas ul li a i{
+  background: #BDD1DF;
+  border-radius: 50%;
+  display: block;
+  text-decoration: none;
+  width: 28px;
+  padding-top: 5px;
+  color: #fff;
+  height: 22px;
+  text-align: center;
+}
+.pas ul li a:hover i.fa-facebook-f{
+  background:#3506D9;
+} 
+  .pas ul li a:hover i.fa-twitter{
+  background: #4EB4E6;
+} 
+.pas ul li a:hover i.fa-linkedin-in{
+  background:#3A81A8
+}
+.pas ul li a:hover i.fa-envelope{
+  background: #F6C81C;
+}
+/**************************************
+SKIL AREA CSS
+**************************************/
+#skil_area{
+width: 100%;
+clear: both;
+background-image:
+linear-gradient(rgba(225, 225, 225, 0.911),rgba(225, 225, 225, 0.911)),
+url(img/slider_04.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+padding:120px 0 ;
+text-align: center;
+}
+.inner_skil{
+overflow: hidden;
+}
+.inner_skil h2{
+color: #3C4761;
+font-size: 40px;
+font-weight: bold;
+position: relative;
+}
+.inner_skil h2::after{
+  content: "";
+  display: block;
+  height: 4px;
+  width: 86px;
+  background: #DFE8ED;
+  margin: auto;
+  margin-top: 20px;
+}
+.inner_skil p{
+color: #3C4761;
+font-size: 18px;
+font-weight: normal;
+width: 60%;
+margin-left: 20%;
+}
+.tpl{
+  width: 23%;
+	float: left;
+	margin: 0 1% 10px;
+  margin-top: 78px;
+}
+svg.web_desine circle{
+  stroke:#30BAE7;
+}
+svg.html_css circle{
+  stroke:#D74680;
+}
+svg.graphic_design circle{
+  stroke:#15C7A8;
+}
+svg.ui_ux circle{
+  stroke:#EB7D4B;
+}
+.inner_skil h3{
+color:#3C4761;
+font-size: 24px;
+font-weight: bold;
+}
+/**************************************
+PORTFOLIO AREA CSS
+**************************************/
+#portfolio_area{
+  background-image:
+  linear-gradient( rgba(141, 141, 140, 0.796),rgba(141, 141, 140, 0.796)),
+  url(img/slider_05.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; 
+  background-attachment: fixed;
+  width: 100%;
+  clear: both;
+  padding:100px 0 ;
+  text-align: center;
+}
+.inner_portfilio{
+overflow: hidden;
+}
+.inner_portfilio h2{
+color: #393939;
+font-size: 40px;
+font-weight: bold;
+position: relative;
+}
+.inner_portfilio h2::after{
+  content: "";
+  display: block;
+  height: 4px;
+  width: 86px;
+  background: #E5C37F;
+  margin: auto;
+  margin-top: 20px;
+  }
+.inner_portfilio p{
+  color: #46443F;
+  font-size: 18px;
+  font-weight: normal;
+  width: 60%;
+  margin-left: 20%;
+}
+.inner_portfilio h5{
+color: #393939;
+font-size: 18px;
+font-weight: normal;
+margin-top: 15px;
+margin-bottom: 65px;
+}
+.navition button{
+  background: #EBC985;
+  font-size:18px ;
+  padding:10px 20px ;
+  border: 0;
+  border-radius:5px ;
+  text-transform: uppercase;
+  color: #393939;
+  margin: 5px;
+  transition: .5s;
+}
+.navition button:hover{
+background: #fff;
+cursor: pointer;
+}
+.navition .mixitup-control-active{
+  background: #fff;
+}
+.may{
+  width: 48%;
+	float: left;
+	margin: 0 1% 10px;
+  margin-top: 78px;
+}
+.pet{
+background: #17C2A4;
+color: #fff;
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+padding: 25px 50px;
+text-decoration: none;
+text-transform: uppercase;
+border-radius: 5px;
+border-color: #17C2A4;
+}
+/**************************************
+TESTIMONIAL AREA CSS
+**************************************/
+#testimonial_area{
+background-image: 
+linear-gradient(rgba(215, 70, 128, 0.63),rgba(215, 70, 128, 0.63)),
+url(img/slider_06.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+color: #fff;
+width: 100%;
+clear: both;
+padding-top: 100px;
+}
+.inner_testmonial{
+  overflow: hidden;
+}
+.main_testimonial h2{
+font-size: 40px;
+font-weight: bold;
+margin-bottom: 15px;
+position: relative;
+text-align: center;
+}
+.inner_testmonial h2::after{
+  content: "";
+  display: block;
+  width: 86px;
+  height: 4px;
+  background: #B73C6D;
+  margin: auto;
+  margin-top: 20px;
+}
+.main_testimonial p{
+font-size: 18px;
+font-weight: normal;
+text-align: center;
+}
+.inner_child_text{
+  width: 48%;
+	float: left;
+	margin: 0 1% 10px;
+  padding: 60px 0;
+}
+.inner_child_text img {
+	float: left;
+	width: 120px;
+	height: 100px;
+	border-radius: 50%;
+	margin-right: 50px;
+  margin-bottom: 60px;
+}
+.inner_child_text .child-testimonial:nth-child(2){
+  margin-top: 140px;
+}
+ .child-testimonial_4 .claint_reveiw{
+margin-top:162px;
+}
+
+.inner_child_text p{
+  font-size: 21px;
+  font-style: italic;
+  text-align: left;
+}
+.inner_child_text h3{
+font-size: 24px;
+font-weight: bold;
+text-align: left;
+margin: 0;
+padding-bottom: 10px;
+text-transform: uppercase;
+}
+.rim{
+  color: #FFDD99 ;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+}
+/**************************************
+TESTIMONIAL AREA CSS
+**************************************/
+#touch_area{
+  background-image:
+  linear-gradient(rgba(60, 83, 153, 0.736),rgba(60, 83, 153, 0.736)),
+  url(img/slider_07.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: #fff;
+  width: 100%;
+  clear: both;
+  padding: 100px 0;
+  text-align: center;
+}
+.inner_touch_area{
+overflow: hidden;
+}
+.main_touch h2{
+font-size: 40px;
+font-weight: normal;
+position: relative;  
+}
+.main_touch h2::after{
+  content: "";
+  display: block;
+  width: 86px;
+  height: 4px;
+  background: #273A71;
+  margin: auto;
+  margin-top: 20px;
+}
+.main_touch p{
+font-size: 18px;
+font-weight: normal;
+margin-left: 20px;
+}
+.inner_touch_area form{
+margin-top: 70px;
+}
+.inner_touch_area form ::placeholder{
+  color: #fff;
+  opacity: 1;
+  }
+.inner_touch_area input{
+  background: #273A71;
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  border: 0px solid;
+  border-radius: 5px;
+  padding: 10px 5%;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  width: 30%;
+  height: 26px;
+}
+  .inner_touch_area textarea {
+    background: #273A71;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    border: 0px solid;
+    border-radius: 5px;
+    padding: 10px 5%;
+    margin-bottom: 10px;
+    width: 73%;
+    height:200px;
+    margin-left: 20px;
+  }
+  .inner_touch_area input[type="submit"]{
+    background: #30BAE7;
+    width: 291px;
+    height:60px ;
+    color:#fff;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+/**************************************
+FOOTER AREA CSS
+**************************************/
+#footer_area{
+background: #344B8E;
+padding: 15px 0;
+text-align: center;
+border-top: 1px solid rgba(255, 255, 255, 0.384);
+}
+.inner_footer{
+overflow: hidden;
+}
+.inner_footer ul{
+list-style: none;
+}
+.inner_footer ul li{
+  display: inline-block;
+  margin-right: 10px;
+}
+.inner_footer ul li a{
+  color: #fff;
+  display: block;
+  font-size: 24px;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding:5px 15px;
+}
+.inner_footer ul li a:hover {
+color: #31ABDB;
+}
